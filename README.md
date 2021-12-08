@@ -3,7 +3,8 @@ Code for a Flight Fare Prediction Webapp
 
 
 # Project Partners
-- Shivraj Saindre
+- Repl
+- Replace this line with your name
 - Rahul Kharade
-- Siddharth Jadhav
-- Romesh Borawake
+- Siddharth Kamble
+- Romesh Borawke
