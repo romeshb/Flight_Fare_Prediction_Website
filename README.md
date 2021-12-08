@@ -4,8 +4,8 @@ Code for a Flight Fare Prediction Webapp
 
 
 # Project Partners
-- Repl
-- Replace this line with your name
+- Rep
+- Pankaj kande
 - Rahul Kharade
 - Siddharth Kamble
 - Romesh Borawke
