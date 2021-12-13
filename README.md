@@ -8,4 +8,4 @@ Code for a Flight Fare Prediction Webapp
 - Pankaj kande
 - Rahul Kharade
 - Siddharth Kamble
-- Romesh Borawke
+- Romesh Borawake
