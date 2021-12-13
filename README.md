@@ -4,7 +4,7 @@ Code for a Flight Fare Prediction Webapp
 
 
 # Project Partners
-- Rep
+- Kedar Kshatriya
 - Pankaj kande
 - Rahul Kharade
 - Siddharth Kamble
