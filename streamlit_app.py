@@ -115,13 +115,13 @@ def main():
         weekday = pd.to_datetime(dep_date, format="%Y-%m-%d").day_name()
         #weekday
         Weekday_one_hot = pd.DataFrame([[0, 0, 0, 0, 0, 0]],
-                                       columns=['Weekday_Monday',
-                                                'Weekday_Saturday',
-                                                'Weekday_Sunday',
-                                                'Weekday_Thursday',
-                                                'Weekday_Tuesday',
-                                                'Weekday_Wednesday'])
-        selected_weekday = "_".join(("Weekday", weekday))
+                                       columns=['Weekday_name_of_Journey_Monday',
+                                                'Weekday_name_of_Journey_Saturday',
+                                                'Weekday_name_of_Journey_Sunday',
+                                                'Weekday_name_of_Journey_Thursday',
+                                                'Weekday_name_of_Journey_Tuesday',
+                                                'Weekday_name_of_Journey_Wednesday'])
+        selected_weekday = "_".join(("Weekday_name_of_Journey", weekday))
         if weekday != "Friday":
             Weekday_one_hot[selected_weekday][0] = 1
         #Weekday_one_hot
