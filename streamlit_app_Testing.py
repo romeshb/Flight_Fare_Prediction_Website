@@ -156,27 +156,8 @@ def main():
 
     X = pd.concat([df,Airline_one_hot, Source_one_hot, Destination_one_hot, Weekday_one_hot], axis =1)
     X
-    prediction = model.predict(X)
-    print('Rs. ', prediction)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    predicted_fare = model.predict(X)
+    print('Rs. ', predicted_fare)
 
     if source == destination:
         st.error('Arrival and Destination Cannot be Same.')
@@ -189,7 +170,7 @@ def main():
         #     time.sleep(2)
         #st.success('Done!, Predicted Fare for your Journey is: **Rs.**')
         #pred_fare = model.predict()
-        st.write('Predicted Fare for your Journey is: **Rs.**')
+        st.write('Predicted Fare for your Journey is: **Rs.{}**'.format(int(round(predicted_fare[0], 0))))
     else:
         st.write('Click to Predict the Fare for your trip.')
 
