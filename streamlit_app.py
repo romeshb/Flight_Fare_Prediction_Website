@@ -10,6 +10,16 @@ pickled_file = open('flightModel.pkl', 'rb')
 model = pickle.load(pickled_file)
 
 def main():
+    st.set_page_config(
+    page_title="Flight Fare Predication WebApp",
+    page_icon="✈",
+    layout="centered",
+    initial_sidebar_state="auto",
+    menu_items={
+        'Get help': 'https://github.com/romeshb/Flight_Fare_Prediction_Website',
+        'Report a bug': "https://github.com/romeshb/Flight_Fare_Prediction_Website/issues/new",
+        'About': "# Flight Fare Price Prediction WebApp, Using *Machine Learning*!"}
+    
     st.title('Know Your Flight Fare ✈')
     st.subheader('Using Machine Learning, get to know your Flight Fares Better.')
 
