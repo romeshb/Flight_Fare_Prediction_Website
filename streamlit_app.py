@@ -18,7 +18,9 @@ def main():
     menu_items={
         'Get help': 'https://github.com/romeshb/Flight_Fare_Prediction_Website',
         'Report a bug': "https://github.com/romeshb/Flight_Fare_Prediction_Website/issues/new",
-        'About': "# Flight Fare Price Prediction WebApp, Using *Machine Learning*!"}
+        'About': "# Flight Fare Price Prediction WebApp, Using *Machine Learning*!"
+    }
+    )
     
     st.title('Know Your Flight Fare ✈')
     st.subheader('Using Machine Learning, get to know your Flight Fares Better.')
