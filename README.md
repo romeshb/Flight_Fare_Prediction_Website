@@ -9,11 +9,3 @@ Code for a Flight Fare Prediction Webapp
 
 
 
-# Project Partners
-- Kedar Kshatriya
-- Pankaj Kande
-- Rahul Kharade
-- Siddharth Kamble
-- Romesh Borawake
-- Aakash Shinde
-- Shivraj Saindre
